@@ -1,0 +1,20 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+        "build": "esbuild src/index.js --bundle --outfile=Bundle.js --loader:.js=jsx --format=cjs"
+
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
